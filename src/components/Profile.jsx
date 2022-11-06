@@ -31,12 +31,7 @@ export const Profile = () => {
           <MDBRow>
             <MDBCol>
               <MDBBreadcrumb className='bg-light rounded-3 p-3 mb-4'>
-                <MDBBreadcrumbItem>
-                  <a href='#'>Home</a>
-                </MDBBreadcrumbItem>
-                <MDBBreadcrumbItem>
-                  <a href='#'>User</a>
-                </MDBBreadcrumbItem>
+                
                 <MDBBreadcrumbItem active>User Profile</MDBBreadcrumbItem>
               </MDBBreadcrumb>
             </MDBCol>
@@ -54,7 +49,7 @@ export const Profile = () => {
                     fluid
                   />
                   <p className='text-muted mb-1'>Prime Account</p>
-                  <p className='text-muted mb-4'>Bay Area, San Francisco, CA</p>
+                  <p className='text-muted mb-4'>Lagos, Nigeria</p>
                   <div className='d-flex justify-content-center mb-2'>
                     <MDBBtn outline className='ms-1' onClick={handleLogout}>
                       Logut
