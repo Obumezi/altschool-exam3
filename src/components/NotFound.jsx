@@ -1,9 +1,11 @@
 
 
-
 export function NotFound() {
     return (
-        <h1>Page not found</h1>
+        <>
+            <h1>Page not found</h1>
 
+            <img src='404' alt="" />
+        </>
     )
 }
