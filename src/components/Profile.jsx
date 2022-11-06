@@ -23,7 +23,12 @@ export const Profile = () => {
   };
   return (
     <>
-      <div>Welcome {auth.user}</div>
+      <div style={{
+        display: "flex",
+        justifyContent: "center",
+        paddingTop: "10px",
+        fontSize: '20px'
+      }}>Welcome {auth.user}</div>
       {/*  <button onClick={handleLogout}>Logout</button> */}
 
       <section style={{ backgroundColor: "#eee" }}>
@@ -31,7 +36,7 @@ export const Profile = () => {
           <MDBRow>
             <MDBCol>
               <MDBBreadcrumb className='bg-light rounded-3 p-3 mb-4'>
-                
+
                 <MDBBreadcrumbItem active>User Profile</MDBBreadcrumbItem>
               </MDBBreadcrumb>
             </MDBCol>
