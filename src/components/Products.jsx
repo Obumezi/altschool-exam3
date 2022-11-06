@@ -15,7 +15,7 @@ export default function Products() {
 
                 {/* Do not include the slash for nested routes */}
                 <Link to='FeaturedProducts'>Featured</Link>
-                <Link to='NewProduct'>new</Link>
+                <Link to='NewProduct'>New Products</Link>
             </nav>
 
             {/* tells react where to render the child components */}

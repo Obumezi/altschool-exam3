@@ -14,6 +14,11 @@ import { Profile } from './components/Profile'
 import { AuthProvider } from './components/Auth'
 import Login from './components/Login'
 import { RequireAuth } from './components/RequireAuth'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+
 
 const LazyAbout = React.lazy(() => import('./components/About'))
 
@@ -34,6 +39,8 @@ function App() {
 
 
         <Route path='products' element={<Products />} >
+
+
 
           {/* Index route */}
           <Route index element={<FeaturedProducts />} />

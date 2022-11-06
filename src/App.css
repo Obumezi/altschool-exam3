@@ -1,6 +1,9 @@
 .primary-nav{
   background-color: aliceblue;
   padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  
 }
 
 nav a {
@@ -11,3 +14,6 @@ nav a.active{
   text-decoration: none;
   font-weight: bold;
 }
+
+
+
