@@ -9,7 +9,9 @@ import {
   MDBPagination, MDBPaginationItem, MDBPaginationLink
 } from "mdb-react-ui-kit";
 
+
 export function FeaturedProducts() {
+
   return (
     <>
       <h3
@@ -69,6 +71,7 @@ export function FeaturedProducts() {
                     <MDBIcon fas icon='star' />
                   </div>
                 </div>
+
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -117,6 +120,7 @@ export function FeaturedProducts() {
                     <MDBIcon far icon='star' />
                   </div>
                 </div>
+
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -165,13 +169,14 @@ export function FeaturedProducts() {
                     <MDBIcon fas icon='star-half-alt' />
                   </div>
                 </div>
+
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
 
-      <nav aria-label='' style={{display:'flex', justifyContent:'center', paddingBottom:'20px'}}>
+      <nav aria-label='' style={{ display: 'flex', justifyContent: 'center', paddingBottom: '20px' }}>
         <MDBPagination className='mb-0'>
           <MDBPaginationItem disabled>
             <MDBPaginationLink href='#' tabIndex={-1} aria-disabled='true'>

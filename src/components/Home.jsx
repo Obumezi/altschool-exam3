@@ -17,8 +17,8 @@ export function Home() {
         Home page
       </h1>
 
-      <Card />
-      <button onClick={() => navigate("ordersummary")}> Place order</button>
+      <Card  /> 
+   {/*    <button onClick={() => navigate("ordersummary")}> Place order</button> */}
     </>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   MDBContainer,
   MDBRow,
@@ -12,7 +13,9 @@ import {
   MDBPagination, MDBPaginationItem, MDBPaginationLink
 } from "mdb-react-ui-kit";
 
+
 export function NewProduct() {
+
   return (
     <>
       <h3
@@ -67,6 +70,7 @@ export function NewProduct() {
                   <p>Category</p>
                 </a>
                 <h6 className='mb-3'>$61.99</h6>
+                
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -106,6 +110,7 @@ export function NewProduct() {
                   <p>Category</p>
                 </a>
                 <h6 className='mb-3'>$61.99</h6>
+                
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -148,6 +153,7 @@ export function NewProduct() {
                   <s>$61.99</s>
                   <strong className='ms-2 text-danger'>$50.99</strong>
                 </h6>
+                
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -191,6 +197,7 @@ export function NewProduct() {
                   <s>$61.99</s>
                   <strong className='ms-2 text-danger'>$50.99</strong>
                 </h6>
+                
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -226,6 +233,7 @@ export function NewProduct() {
                   <p>Category</p>
                 </a>
                 <h6 className='mb-3'>$61.99</h6>
+                
               </MDBCardBody>
             </MDBCard>
           </MDBCol>
@@ -268,8 +276,11 @@ export function NewProduct() {
                 </a>
                 <h6 className='mb-3'>
                   <s>$61.99</s>
+                  
                   <strong className='ms-2 text-danger'>$50.99</strong>
+                  
                 </h6>
+                
               </MDBCardBody>
             </MDBCard>
           </MDBCol>

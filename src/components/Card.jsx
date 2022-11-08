@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import {
     MDBContainer,
     MDBRow,
@@ -11,6 +12,7 @@ import {
 
 
 export default function Card() {
+    const navigate = useNavigate();
     return (
         <MDBContainer fluid className="my-5">
             <MDBRow>
@@ -59,6 +61,7 @@ export default function Card() {
                                     <MDBIcon fas icon="star" />
                                 </div>
                             </div>
+                            <button onClick={() => navigate("ordersummary")}> Place order</button>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
@@ -107,6 +110,7 @@ export default function Card() {
                                     <MDBIcon far icon="star" />
                                 </div>
                             </div>
+                            <button onClick={() => navigate("ordersummary")}> Place order</button>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
@@ -155,6 +159,7 @@ export default function Card() {
                                     <MDBIcon fas icon="star-half-alt" />
                                 </div>
                             </div>
+                            <button onClick={() => navigate("ordersummary")}> Place order</button>
                         </MDBCardBody>
                     </MDBCard>
                 </MDBCol>
